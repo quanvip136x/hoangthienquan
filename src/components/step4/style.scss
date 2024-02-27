@@ -1,0 +1,17 @@
+.scroll-dishes {
+  overflow-y: auto;
+  height: 130px;
+  padding-right: 10px;
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #b4b3b3;
+    border-radius: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+}
