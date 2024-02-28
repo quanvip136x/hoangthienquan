@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./style.scss";
 function Step4({
   dishesSelected,
@@ -7,6 +8,11 @@ function Step4({
   step,
   setStep,
 }) {
+  const [select, setSelect] = useState([]);
+  useEffect(() => {
+    const filterItem = dishesSelected.filter((item) => item.name !== "");
+    setSelect(filterItem);
+  }, [dishesSelected]);
   return (
     <div className="d-flex align-items-center justify-content-center flex-column">
       <div className="d-flex gap-3  w-75 ">
@@ -22,7 +28,7 @@ function Step4({
           <div className="mt-4 fw-bold">{numberPeople}</div>
           <div className="mt-4 fw-bold">{restaurantSelected}</div>
           <div className="mt-4 fw-bold scroll-dishes ">
-            {dishesSelected.map((item) => (
+            {select.map((item) => (
               <div className="mt-3">
                 {item.name} - {item.number}
               </div>
