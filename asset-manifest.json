@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/hoangthienquan/static/css/main.b16094e1.css",
+    "main.js": "/hoangthienquan/static/js/main.228ffe9a.js",
+    "static/js/453.d151a9ab.chunk.js": "/hoangthienquan/static/js/453.d151a9ab.chunk.js",
+    "static/media/pexels-pixabay-262978.jpg": "/hoangthienquan/static/media/pexels-pixabay-262978.801541d614547940e162.jpg",
+    "static/media/white-architecture-abstract-symmetry-interior-design-lighting-103464-wallhere.com.jpg": "/hoangthienquan/static/media/white-architecture-abstract-symmetry-interior-design-lighting-103464-wallhere.com.ba3bb7f08dafa0ca7848.jpg",
+    "static/media/dat-hang-thanh-cong.jpg": "/hoangthienquan/static/media/dat-hang-thanh-cong.5b00e0f1f141ca6b314f.jpg",
+    "index.html": "/hoangthienquan/index.html",
+    "main.b16094e1.css.map": "/hoangthienquan/static/css/main.b16094e1.css.map",
+    "main.228ffe9a.js.map": "/hoangthienquan/static/js/main.228ffe9a.js.map",
+    "453.d151a9ab.chunk.js.map": "/hoangthienquan/static/js/453.d151a9ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b16094e1.css",
+    "static/js/main.228ffe9a.js"
+  ]
+}
